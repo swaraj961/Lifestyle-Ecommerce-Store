@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+<link rel="stylesheet" href="./Assignment/css/index.css">
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <body>
@@ -28,16 +29,16 @@
 <span class="sr-only">Loading...</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="logout.php"><i class="fa fa-sign-out-alt fas-lg">Logout</i></a>
+                <a class="nav-link" href="logout.php"><i class="fa fa-sign-out" style="font-size: 20px;"></i>&nbsp;Logout</a>
             </li>
             <?php
             } else {
             ?>
             <li class="nav-item">
-              <a class="nav-link" href="signup.php">Sign Up<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="signup.php"><i class="fa fa-user" aria-hidden="true"></i>&nbsp;Sign Up</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="login.php">Login</a>
+            <a class="nav-link" href="logout.php"><i class="fa fa-sign-out" style="font-size: 20px;"></i>&nbsp;Login</a>
             </li>
             <?php
             }
