@@ -25,7 +25,7 @@
         <div class="row text-center">
           <div class="col-md-3 col-sm-6">
             <figure class="figure">
-                <img src="5.jpg" class="figure-img img-fluid rounded" alt="...">
+                <img src="images/5.jpg" class="figure-img img-fluid rounded" alt="...">
                 <figcaption class="figure-caption">
                     <h3>Cannon EOS</h3>
                     <p>Price: Rs. 36000.00</p>
@@ -43,7 +43,7 @@
           </div>
           <div class="col-md-3 col-sm-6">
             <figure class="figure">
-                <img src="2.jpg" class="figure-img img-fluid rounded" alt="...">
+                <img src="images/2.jpg" class="figure-img img-fluid rounded" alt="...">
                 <figcaption class="figure-caption">
                     <h3>Nikon D780</h3>
                     <p>Price: Rs. 46000.00</p>
@@ -61,7 +61,7 @@
           </div>
           <div class="col-md-3 col-sm-6">
             <figure class="figure">
-                <img src="3.jpg" class="figure-img img-fluid rounded" alt="...">
+                <img src="images/3.jpg" class="figure-img img-fluid rounded" alt="...">
                 <figcaption class="figure-caption">
                     <h3>Cannon Rebel</h3>
                     <p>Price: Rs. 32000.00</p>
@@ -79,7 +79,7 @@
           </div>
           <div class="col-md-3 col-sm-6">
             <figure class="figure">
-                <img src="4.jpg" class="figure-img img-fluid rounded" alt="...">
+                <img src="images/4.jpg" class="figure-img img-fluid rounded" alt="...">
                 <figcaption class="figure-caption">
                     <h3>Nikon Flash</h3>
                     <p>Price: Rs. 41000.00</p>
@@ -100,7 +100,7 @@
       <div class="row text-center">
         <div class="col-md-3 col-sm-6">
           <figure class="figure">
-              <img src="6.jpg" class="figure-img img-fluid rounded" alt="...">
+              <img src="images/6.jpg" class="figure-img img-fluid rounded" alt="...">
               <figcaption class="figure-caption">
                   <h3>Lee</h3>
                   <p>Price: Rs. 3800.00</p>
@@ -118,7 +118,7 @@
         </div>
         <div class="col-md-3 col-sm-6">
           <figure class="figure">
-              <img src="8.jpg" class="figure-img img-fluid rounded" alt="..." style="height: 170px;">
+              <img src="images/8.jpg" class="figure-img img-fluid rounded" alt="..." style="height: 170px;">
               <figcaption class="figure-caption">
                   <h3>Cantabil</h3>
                   <p>Price: Rs. 2200.00</p>
@@ -136,7 +136,7 @@
         </div>
         <div class="col-md-3 col-sm-6">
           <figure class="figure">
-              <img src="13.jpg" class="figure-img img-fluid rounded" alt="...">
+              <img src="images/13.jpg" class="figure-img img-fluid rounded" alt="...">
               <figcaption class="figure-caption">
                   <h3>Aleba</h3>
                   <p>Price: Rs. 4400.00</p>
@@ -154,7 +154,7 @@
         </div>
         <div class="col-md-3 col-sm-6">
           <figure class="figure">
-              <img src="14.jpg" class="figure-img img-fluid rounded" alt="...">
+              <img src="images/14.jpg" class="figure-img img-fluid rounded" alt="...">
               <figcaption class="figure-caption">
                   <h3>Raymond</h3>
                   <p>Price: Rs. 3500.00</p>
@@ -175,7 +175,7 @@
     <div class="row text-center">
         <div class="col-md-3 col-sm-6">
           <figure class="figure">
-              <img src="12.jpg" class="figure-img img-fluid rounded" alt="...">
+              <img src="images/12.jpg" class="figure-img img-fluid rounded" alt="...">
               <figcaption class="figure-caption">
                   <h3>Fastrack</h3>
                   <p>Price: Rs. 4000.00</p>
@@ -193,7 +193,7 @@
         </div>
         <div class="col-md-3 col-sm-6">
           <figure class="figure">
-              <img src="9.jpg" class="figure-img img-fluid rounded" alt="...">
+              <img src="images/9.jpg" class="figure-img img-fluid rounded" alt="...">
               <figcaption class="figure-caption">
                   <h3>Sonata</h3>
                   <p>Price: Rs. 3100.00</p>
@@ -211,7 +211,7 @@
         </div>
         <div class="col-md-3 col-sm-6">
           <figure class="figure">
-              <img src="10.jpg" class="figure-img img-fluid rounded" alt="...">
+              <img src="images/10.jpg" class="figure-img img-fluid rounded" alt="...">
               <figcaption class="figure-caption">
                   <h3>Roger</h3>
                   <p>Price: Rs. 3700.00</p>
@@ -229,7 +229,7 @@
         </div>
         <div class="col-md-3 col-sm-6">
           <figure class="figure">
-              <img src="11.jpg" class="figure-img img-fluid rounded" alt="...">
+              <img src="images/11.jpg" class="figure-img img-fluid rounded" alt="...">
               <figcaption class="figure-caption">
                   <h3>Titan</h3>
                   <p>Price: Rs. 4600.00</p>
