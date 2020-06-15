@@ -8,6 +8,30 @@
     <title>Products</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="css/products.css" rel="stylesheet" type="text/css"> 
+    <style>
+    .display-4{
+      font-weight: bold;
+      opacity: .7;
+    
+
+
+    }
+    .jumbotron{
+      background-color:#ff5722;
+      border-radius: 10px;
+      text-align: center;
+       /* #FFC107; */
+      opacity: .9;
+      color: white;
+    }
+
+    .btn-primary{
+      background-color:#3949ab;
+    }
+    .btn-primary:hover{
+      background-color: #651fff;
+    }
+    </style>
 </head>
 <body>
       <?php
@@ -17,7 +41,7 @@
       <div class="container">
           <div class="jumbotron" style="margin: 25px auto;">
               <h1 class="display-4">Welcome to our Lifestyle Store!</h1>
-              <p>We have the best cameras, watches and shirts for you. No need to hunt around, we have all in one place</p>
+              <p>"We have the best cameras, watches and shirts for you. No need to hunt around, we have all in one place"</p>
           </div>
       </div>
 
@@ -118,7 +142,7 @@
         </div>
         <div class="col-md-3 col-sm-6">
           <figure class="figure">
-              <img src="images/8.jpg" class="figure-img img-fluid rounded" alt="..." style="height: 170px;">
+              <img src="images/8.jpg" class="figure-img img-fluid rounded" alt="..." style="height: 170px; width:500px">
               <figcaption class="figure-caption">
                   <h3>Cantabil</h3>
                   <p>Price: Rs. 2200.00</p>

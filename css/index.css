@@ -29,11 +29,6 @@ footer {
     width: 100%;
 }
 
-.btn-danger {
-    border-radius: 10px;
-    outline-color: azure;
-}
-
 @media only screen and (max-device-width: 480px) {
     #banner_content {
         position: relative;

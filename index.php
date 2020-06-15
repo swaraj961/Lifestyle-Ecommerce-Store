@@ -12,6 +12,17 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="css/index.css" rel="stylesheet" type="text/css"> 
 </head>
+<style>
+    .btn-danger{
+        background-color: #FF6839 !important;
+        border-color: #FF6839 !important;
+        border-radius: 12px !important;
+    }
+    h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+    }
+</style>
 <body>
       <?php
       include 'includes/header.php';
@@ -21,7 +32,7 @@
               <div id="banner_content">
                     <h1>We sell lifestyle</h1>
 					<p>Flat 40% OFF</p>
-                    <a class="btn btn-danger btn-lg active" href="products.php">Shop Now</a>
+                    <a class="btn btn-danger btn-lg active" href="products.php"><h4>Shop Now</h4></a>
               </div>
           </div>
       </div>

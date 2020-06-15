@@ -9,6 +9,22 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="css/login.css" rel="stylesheet" type="text/css"> 
 </head>
+
+<style>
+   #box {
+        width: 30%;
+        margin-top: 5%;
+    }
+    
+@media only screen and (max-device-width: 480px) {
+    #box {
+      padding-top: 95px;
+        width: 90%;
+        margin-top: 5%;
+        padding-bottom: 15px;
+    }
+}
+</style>
 <body>
       <?php
       include 'includes/header.php';
