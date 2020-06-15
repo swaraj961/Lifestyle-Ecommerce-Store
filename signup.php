@@ -11,6 +11,27 @@
     <title>Signup</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="css/signup.css" rel="stylesheet" type="text/css"> 
+    <style>
+       .btn-danger{
+      background-color:#FF6839;
+      border-color: #FF6839;
+      border-radius: 15px;
+     
+    }
+    .btn-danger:hover {
+      background-color: #FF6839;
+      border-color: whitesmoke;
+    }
+
+    .btn-danger:active {
+      background-color: #FF6839 !important;
+      border-color: #FF6839 !important;
+     
+    }
+
+
+       
+    </style>
 </head>
 <body>
       <?php
@@ -38,7 +59,7 @@
               <div class="form-group">
                 <input type="text" name="address" class="form-control" placeholder="Address" required>
               </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-danger">Submit</button>
           </form>
     </div>
     <?php

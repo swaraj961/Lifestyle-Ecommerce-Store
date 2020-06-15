@@ -11,6 +11,26 @@
     <title>Carts</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="css/carts.css" rel="stylesheet" type="text/css"> 
+    <style>
+      .btn-primary{
+        border-radius: 20px;
+      }
+
+      #pops{
+padding-top: 120px;
+text-align: center;
+      }
+
+
+      @media only screen and (max-device-width: 480px) {
+        #pops{
+padding-top: 350px;
+
+text-align: center;
+      }
+
+}
+    </style>
 </head>
 <body>
       <?php
@@ -20,12 +40,12 @@
             $query = "SELECT p.id, p.name, p.price FROM items p INNER JOIN users_items up ON up.item_id = p.id WHERE up.user_id = '$user_id' AND up.status = 'Added to cart'";
             $result = mysqli_query($con, $query) or die(mysqli_error($con));
             if(mysqli_num_rows($result) == 0){
-                echo '<h4 class="container panel-margin">Add products to cart first. Goto <a href="products.php">Products</a> page.</h4>';
+                echo '<h4 class="container panel-margin" id="pops">Add products to cart first. Goto <a href="products.php">Products</a> page.</h4>';
             }else{
                 $total = 0;
         ?>
 
-      <table class="table table-sm table-borderless" id="table">
+      <table class="table table-sm table-bordered" id="table">
         <thead>
           <tr>
             <th scope="col">Item Number</th>

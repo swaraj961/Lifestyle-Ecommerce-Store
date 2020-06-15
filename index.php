@@ -32,7 +32,7 @@
               <div id="banner_content">
                     <h1>We sell lifestyle</h1>
 					<p>Flat 40% OFF</p>
-                    <a class="btn btn-danger btn-lg active" href="products.php"><h4>Shop Now</h4></a>
+                    <a class="btn btn-danger btn-lg active" href="products.php"><h5>Shop Now</h5></a>
               </div>
           </div>
       </div>

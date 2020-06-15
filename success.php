@@ -28,7 +28,7 @@
             }
         ?>
     <div class="container text-center" style="margin-top: 13%;">
-        <h3 class="display-5">
+        <h3 class="display-5 alert alert-success">
             Your order is confirmed. Thank you for shopping  with us.<br>​ 
             <a href="products.php">Click here</a>​ to purchase any other item.
          </h3>

@@ -11,6 +11,16 @@
 </head>
 
 <style>
+.card {
+  border-radius: 20px;
+}
+  
+ .btn-danger{
+   border-color: #FF6839 !important;
+ }
+  .bg-custom{
+    background-color: #FF6839 !important;
+  }
    #box {
         width: 30%;
         margin-top: 5%;
@@ -31,11 +41,11 @@
       ?>
       <div class="container" id="box">
         <div class="card">
-            <div class="card-header bg-primary text-white">
+            <div class="card-header bg-custom text-white">
               LOGIN
             </div>
             <div class="card-body">
-                <p class="text-warning">Login to make a purchase</p>
+                <p class="text-info">Login to make a purchase</p>
                 <form action="login_submit.php" method="POST">
                     <div class="form-group">
                       <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="E-mail" name="email">
@@ -43,10 +53,10 @@
                     <div class="form-group">
                       <input type="password" class="form-control" placeholder="Password" name="password">
                     </div>
-                    <button type="submit" class="btn btn-primary">Login</button>
+                    <button type="submit" class="btn btn-danger bg-custom">Login</button>
                   </form>
             </div>
-            <div class="card-footer">
+            <div class="card-footer ">
                 Don't have a account? <a href="signup.php">Register</a>
               </div>
           </div>
