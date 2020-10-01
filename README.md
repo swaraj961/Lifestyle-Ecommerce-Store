@@ -17,9 +17,6 @@
 <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat">
 </p>
 
-<img src="./readme/Welcome.PNG" width="100%">
-
-<h2 align="center"><a  href="https://serene-cove-78437.herokuapp.com/">Visit the Site</a></h2>
 
 
 <img src="https://github.com/swaraj961/Lifestyle-Ecommerce-Store/blob/master/demo/1.PNG">
